@@ -1,0 +1,5 @@
+[flake8]
+exclude = .git, __pycache__, .pytest_cache
+max-line-length = 119
+; McCabe complexity threshold
+max-complexity = 10
